@@ -43,7 +43,7 @@ while temp > 0:
    sum += digit ** 3
    temp //= 10
 if num == sum:
-   print(num,"Armstrong number")
+   print(num,"Armstrong number") 
 else:
    print(num,"not  Armstrong number")
 
