@@ -34,3 +34,37 @@ drop scalesman
 -- update rgm set name ="tom" where  contact =987650 
  -- update existing value
  -- select * from rgm;
+ 
+  -- update rgm set name ="tom" where  contact =987650 
+ -- update existing value
+ -- select * from STUDENTstudent_contact;
+-- CREATE TABLE STUDENT(
+--  STUDENT_ID INT PRIMARY KEY NOT NULL,
+--  STUDENT_NAME VARCHAR(30) NOT NULL,
+--   STUDENT_CONTACT INT  NOT NULL,
+--  STUDENT_DEPT INT  NOT NULL,
+-- );
+-- CREATE TABLE TEST(
+--  STUDENT_ID INT PRIMARY KEY NOT NULL,
+--  STUDENT_NAME VARCHAR(30) NOT NULL,
+--   STUDENT_CONTACT INT  NOT NULL,
+--  STUDENT_DEPT INT  NOT NULL
+-- );
+-- select * from student;
+--  INSERT INTO TEST SELECT * FROM student;
+-- SELECT * FROM TEST; 
+-- CREATE TABLE TEST(
+--    STUDENT_ID INT PRIMARY KEY NOT NULL,
+--   STUDENT_NAME VARCHAR(30) NOT NULL,
+--  STUDENT_CONTACT INT  NOT NULL,
+--    STUDENT_DEPT varchar(30)  NOT NULL
+--  );
+
+ -- INSERT INTO TEST SELECT * FROM student;
+
+
+
+-- alter table student rename column student_name to name;
+ select * from student;
+
+ TO CHANGE THE COLUMN NAME 
