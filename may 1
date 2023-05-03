@@ -68,3 +68,20 @@ drop scalesman
  select * from student;
 
  TO CHANGE THE COLUMN NAME 
+
+
+-- create database exercise;
+-- CREATE TABLE customer(
+--  ID INT PRIMARY KEY NOT NULL,
+--  NAME VARCHAR(30) NOT NULL,
+--  CITY VARCHAR(30) NOT NULL,
+--  SCALESMAN_ID INT  NOT NULL
+--  );
+ insert into CUSTOMER values
+  (1,"SUNNY","KURNOOL",124),
+  (4,"BUNNY","KURNOOL",125),
+ (5,"RUMMY","KURNOOL",124),
+ (6,"VISKY","KURNOOL",125),
+ (7,"VISKY","KURNOOL",125)
+ ;
+SELECT * FROM CUSTOMER;
