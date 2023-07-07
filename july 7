@@ -23,6 +23,8 @@ eating...
 
 ----------------------------------------------------------------------------------------------------------------------------------
 Multilevel Inheritance Example                     *************************[ but in java multilevel inheticace is not suppoted]
+                                                    ************************[we can obtain multilevel in heritance by using interface]
+
 When there is a chain of inheritance, it is known as multilevel inheritance. As you can see in the example given below, BabyDog class inherits the Dog class which again inherits the Animal class, so there is a multilevel inheritance.
 
 File: TestInheritance2.java
