@@ -1,0 +1,34 @@
+
+
+car_models = {
+    "Polo Trendline": 870000,
+    "Polo Highline": 1009000,
+    "Virtus Trendline": 1105000,
+    "Virtus Highline": 1308000,
+    "Taigun Trendline": 1489000,
+    "Taigun Highline": 1542000,
+    "Taigun Topline": 1771000
+}
+
+car_model = input("Select car model: ")
+insurance_needed = input("Do you need Insurance (yes/no): ").lower()
+accessories_needed = input("Do you need Additional Accessories (yes/no): ").lower()
+dealer_discount = input("Dealer discount (% or rupees): ")
+
+showroom_price = car_models.get(car_model, 0)
+if showroom_price == 0:
+    print("Invalid car model selected.")
+else:
+    insurance_cost = 47300 if insurance_needed == "yes" else 0
+    accessories_cost = 15000 if accessories_needed == "yes" else 0
+    
+    if dealer_discount.isdigit():
+        dealer_discount = min(int(dealer_discount), 30000)
+    elif dealer_discount.endswith("%"):
+        discount_percent = float(dealer_discount.rstrip("%"))
+        dealer_discount = min(showroom_price * discount_percent / 100, 30000)
+    else:
+        dealer_discount = 0
+        
+    total_cost = showroom_price + 113990 + insurance_cost + 11000 + accessories_cost - dealer_discount
+    print("Total cost:", total_cost)
