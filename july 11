@@ -1,0 +1,48 @@
+dsa two sum 
+
+package dsa;
+
+
+	import java.util.Arrays;
+
+	public class TwoSums {   // 3 Create a class called TwoSum.
+	    public int[] twoSum(int[] nums, int target) {  // 2 that add up to the target sum.
+	                                                  // 4 Define a method named twoSum that takes an array of integers (nums) and a 
+
+	        for (int i = 0; i < nums.length - 1; i++) {
+	            for (int j = i + 1; j < nums.length; j++) {
+	                if (nums[i] + nums[j] == target) {    // 5 target sum (target) as parameters and returns an array of two integers
+
+	                    return new int[]{i, j};   // 6 Inside the twoSum method, initialize two nested loops. The outer loop will
+	                                              // 7 iterate from i = 0 to nums.length - 1.
+	                                              //8  Inside the outer loop, initialize the inner loop. It will iterate from j = i
+	                                              //9  + 1 to nums.length - 1.
+	                                             //10  Within the inner loop, check if the sum of nums[i] and nums[j] equals the
+	                                             //11  target sum:
+	                                             //12  If the sum is equal to the target, return a new array with i and j a selements.
+	                }
+	            }
+	        }
+	        throw new IllegalArgumentException("No two numbers add up to the target sum.");
+	        //13 If no pair is found within the loops, throw an IllegalArgumentException with
+	          //14 an appropriate error message indicating that no two numbers add up to the target sum.
+	    }
+
+	    public static void main(String[] args) {   // In the main method, create an instance of the TwoSum class.
+	        TwoSum twoSum = new TwoSum();
+	        int[] nums = {2, 7, 11, 15};  // 1 Given an array of integers and a target sum, find two numbers in the array
+	                                      // Define an array of integers (nums) and assign values to it.
+	        int target = 9;               // Define a target sum (target).
+	        int[] result = twoSum.twoSum(nums, target); // Call the twoSum method with the nums and target as arguments, and store the
+	        System.out.println("Indices of the two numbers that add up to the target sum:");
+	        System.out.println(Arrays.toString(result));
+
+
+	// result in an array (result).
+	// Print the elements of the result array to display the indices of the two
+	// numbers that add up to the target sum.
+	    }
+	}
+
+	
+}
