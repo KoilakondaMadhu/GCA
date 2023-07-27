@@ -1,0 +1,96 @@
+html {
+    background-color: #deded8;
+    font-family: trebuchet, geneva, sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+ 
+  header {
+    height: 80px;
+    background-color: #c74d4d;
+    color: #ccc;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  nav {
+    display: flex;
+    background-color: rgb(88, 186, 174);
+    padding: 10px 0;
+  }
+  nav a {
+    flex: auto;
+    text-align: center;
+    background: #ccc;
+    color: black;
+    margin: 0 5px;
+    padding: 5px 0;
+    text-decoration: none;
+  }
+.main{
+    height:400px;
+    display: contents;
+
+}
+.row{
+        float: left;
+        background-color:lightgrey;
+        width: 100%;
+        padding: 10px;
+        border: 10px;                   
+        height: 100; /* Should be removed. Only for demonstration */
+        border: 2px soild black;
+    }
+  
+  /* Create two equal columns that floats next to each other */
+  .column1 {
+    margin: 1%;
+    float: left;
+    background-color:#f3f49c;
+    width: 20%;
+    padding: 10px;
+    border: 10px;                 
+    height: 500px; 
+    border-radius: 10%;
+  }
+  .column2 {
+    margin: 1%;
+    float: left;
+    background-color:#4a4a33;
+    width: 20%;
+    padding: 10px;
+    border: 10px;                 
+    height: 500px; 
+    border-radius: 10%;
+  }
+  .column3 {
+    margin: 1%;
+    float: left;
+    background-color:#d4d417;
+    width: 20%;
+    padding: 10px;
+    border: 10px;                 
+    height: 500px; 
+    border-radius: 10%;
+  }
+  .column4 {
+    margin: 1%;
+    float: left;
+    background-color:#2ea534;
+    width: 25%;
+    padding: 10px;
+    border: 10px;                 
+    height: 500px; 
+    border-radius: 10%;
+  }
+    
+  p{
+    text-align: center;
+  }
+
+.footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+
+}
