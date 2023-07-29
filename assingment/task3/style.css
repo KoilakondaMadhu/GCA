@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 50px auto;
+  }
+  img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 10px;
+  }
+  p.first-paragraph {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+  }
+  p.second-paragraph {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
