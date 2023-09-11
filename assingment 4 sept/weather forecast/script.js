@@ -4,7 +4,7 @@
 const weatherData = document.querySelector(".weather-data");
 
 // Define the API key and the city name
-const apiKey = "YOUR_API_KEY"; // Replace this with your own API key from OpenWeatherMap
+const apiKey = "d27960fd7b77c34cab86f6e43b0e4336"; // Replace this with your own API key from OpenWeatherMap
 const cityName = "Nandyal"; // Replace this with any city name you want
 
 // Define the API URL with the parameters
