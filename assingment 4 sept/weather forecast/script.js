@@ -1,16 +1,12 @@
-// TODO: Write JavaScript code here to fetch weather data from the API and update the HTML accordingly
-
-// Get the weather data element from the HTML
 const weatherData = document.querySelector(".weather-data");
 
-// Define the API key and the city name
-const apiKey = "d27960fd7b77c34cab86f6e43b0e4336"; // Replace this with your own API key from OpenWeatherMap
-const cityName = "Nandyal"; // Replace this with any city name you want
+const apiKey = "d27960fd7b77c34cab86f6e43b0e4336"; 
+const cityName = "Nandyal"; 
 
-// Define the API URL with the parameters
+
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
-// Define a function to fetch the weather data from the API and update the HTML
+
 function getWeather() {
   // Use the fetch method to make a request to the API
   fetch(apiUrl)
